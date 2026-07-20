@@ -14,7 +14,7 @@ module riscv_pipeline_top #(
     parameter IMEM_WORDS = 64,
     parameter DMEM_WORDS = 64
 ) (
-    input  logic clk,
+    input  logic clk, 
     input  logic rst_n
 );
 
