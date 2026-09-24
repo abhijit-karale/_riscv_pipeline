@@ -1,4 +1,4 @@
-// -----------------------------------------------------------------------------
+ // -----------------------------------------------------------------------------
 // Module      : riscv_pipeline_top
 // Description : 5-stage pipelined RV32I processor subset (IF-ID-EX-MEM-WB).
 //                Supports: ADD, SUB, AND, OR, XOR, SLT, ADDI, LW, SW, BEQ.
