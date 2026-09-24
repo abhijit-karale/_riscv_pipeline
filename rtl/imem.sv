@@ -10,6 +10,6 @@ module imem #(
         $readmemh(INIT_FILE, mem);
     end
 
-    // Read asynchronously (single-cycle architecture)
+     // Read asynchronously (single-cycle architecture)
     assign instr = mem[pc[31:2]];
 endmodule
